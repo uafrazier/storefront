@@ -2,8 +2,8 @@ function getProducts(data) {                       // Callback when JSON loads
 var newContent = '';                              // Variable to hold HTML
 
 //filter lamps and wallets
-var filterResult1 = data.products.filter(function(d) { return (d.product_type == "Lamp"); });
-var filterResult2 = data.products.filter(function(d) { return (d.product_type == "Wallet"); });
+var filterResult1 = data.products.filter(function(d) { return (d.product_type == "T-shirts"); });
+var filterResult2 = data.products.filter(function(d) { return (d.product_type == "Pullover Hood"); });
 var myResults = filterResult1.concat(filterResult2);
 
 var item = myResults;
